@@ -83,6 +83,18 @@ main {
   padding-bottom: 3em;
 }
 
+.boo {
+  width: 40px;
+  transform: scaleX(-1);
+  position: fixed;
+  opacity: 0.1;
+  transition: all 200ms ease;
+}
+
+.boo:hover {
+  opacity: 1;
+}
+
 
 
 
