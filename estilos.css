@@ -145,6 +145,13 @@ main {
   display: inline-block;
 }
 
+.novidade::before {
+  background-color: #019e1c;
+  border-radius: 5px;
+  content: "Novidade!";
+  padding: 3px;
+}
+
 
 
 
